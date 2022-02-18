@@ -117,6 +117,11 @@ main{
     width: 40px;
     height: 40px;
     min-width: 40px;
-
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
 }
 
+.search img:hover{
+    background: rgb(194, 194, 194);
+}
