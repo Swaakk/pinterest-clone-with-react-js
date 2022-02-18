@@ -4,6 +4,7 @@ import pinterest from "./Images/pinterest.png";
 import {Person,Notifications,Chat,FavoriteRounded,QuestionMark,Add} from "@mui/icons-material"
 import { useEffect } from "react";
 import icons from './Images/icons.png'
+import Pin from './Components/Pin'
 
 
 function App() {
@@ -50,7 +51,9 @@ function App() {
           </div>
         </div>
         <div className="mainContainer">
-          
+          <Pin pinSize={"small"}/>
+          <Pin pinSize={"medium"}/>
+          <Pin pinSize={"large"}/>
         </div>
       </main>
     </div>

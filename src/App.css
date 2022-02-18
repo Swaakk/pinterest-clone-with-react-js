@@ -125,3 +125,29 @@ main{
 .search img:hover{
     background: rgb(194, 194, 194);
 }
+
+
+.mainContainer{
+    flex: 1;
+    height: auto;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    grid-auto-rows: 10px;
+}
+
+.Pin{
+    border-radius: 16px;
+    background: #444;
+    margin: 5px;
+}
+
+.Pin.small{
+    grid-row-end: span 26;
+}
+.Pin.medium{
+    grid-row-end:span 33;
+}
+.Pin.large{
+    grid-row-end: span 45;
+}
