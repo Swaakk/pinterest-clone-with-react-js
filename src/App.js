@@ -44,7 +44,7 @@ function App() {
       </div>
       <main>
         <div className="searchBox">
-          <input type="text" placeholder="search...." />
+          <input type="text" placeholder="Search...." />
           <div className="search">
             <img src={icons} alt="" />
           </div>

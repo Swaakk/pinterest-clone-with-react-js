@@ -83,9 +83,40 @@ main{
     border: 2px solid #757677;
     padding: 8px 15px;
     border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
 }
 
+.searchBox input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #313233;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+.search{
+    /* background: #000001; */
+    /* width: 40px;
+    height: 40px;
+    min-width: 40px; */
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
 
 .search img{
     width: 25px;
+    background: white;
+    border: 2px solid gray;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+
 }
+
