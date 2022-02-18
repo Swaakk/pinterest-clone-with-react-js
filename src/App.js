@@ -54,6 +54,24 @@ function App() {
           <Pin pinSize={"small"}/>
           <Pin pinSize={"medium"}/>
           <Pin pinSize={"large"}/>
+          <Pin pinSize={"small"}/>
+          <Pin pinSize={"medium"}/>
+          <Pin pinSize={"large"}/>
+          <Pin pinSize={"small"}/>
+          <Pin pinSize={"medium"}/>
+          <Pin pinSize={"large"}/>
+          <Pin pinSize={"small"}/>
+          <Pin pinSize={"medium"}/>
+          <Pin pinSize={"large"}/>
+          <Pin pinSize={"small"}/>
+          <Pin pinSize={"medium"}/>
+          <Pin pinSize={"large"}/>
+          <Pin pinSize={"small"}/>
+          <Pin pinSize={"medium"}/>
+          <Pin pinSize={"large"}/>
+          <Pin pinSize={"small"}/>
+          <Pin pinSize={"medium"}/>
+          <Pin pinSize={"large"}/>
         </div>
       </main>
     </div>

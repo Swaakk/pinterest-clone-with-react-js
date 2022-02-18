@@ -136,7 +136,16 @@ main{
     grid-auto-rows: 10px;
 }
 
+.Pin .mainPic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
 .Pin{
+    position: relative;
+    overflow: hidden;
     border-radius: 16px;
     background: #444;
     margin: 5px;
@@ -145,7 +154,7 @@ main{
 .Pin.small{
     grid-row-end: span 26;
 }
-.Pin.medium{
+.Pin  .medium{
     grid-row-end:span 33;
 }
 .Pin.large{
